@@ -5,7 +5,7 @@
       "infoPlist": { "UIBackgroundModes": ["audio"] }
     },
     "android": {
-      "package": "com.yourname.wavelength"
+      "package": "com.adhyan.wavelength"
     },
     "plugins": [
       "expo-dev-client",
