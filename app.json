@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "infoPlist": { "UIBackgroundModes": ["audio"] }
+    },
+    "android": {
+      "package": "com.yourname.wavelength"
+    },
+    "plugins": [
+      "expo-dev-client",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your music library.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to access your music library.",
+          "granularPermissions": ["audio"]
+        }
+      ]
+    ]
+  }
+}
